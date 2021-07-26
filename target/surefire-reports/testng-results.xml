@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login name for this test: inyteti-9518@yopmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Order selection was done]]>
+    </line>
+    <line>
+      <![CDATA[Validating Cart details was done]]>
+    </line>
+    <line>
+      <![CDATA[Logout from account was done]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-07-19T15:25:21 EDT" name="Surefire suite" finished-at="2021-07-19T15:25:39 EDT" duration-ms="17614">
+    <groups>
+    </groups>
+    <test started-at="2021-07-19T15:25:21 EDT" name="Surefire test" finished-at="2021-07-19T15:25:39 EDT" duration-ms="17614">
+      <class name="testng.RegisterTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testng.RegisterTest@1198b989]" started-at="2021-07-19T15:25:21 EDT" name="beforeTest" finished-at="2021-07-19T15:25:21 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testng.RegisterTest@1198b989]" started-at="2021-07-19T15:25:39 EDT" name="afterTest" finished-at="2021-07-19T15:25:39 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testng.RegisterTest -->
+      <class name="testng.OrdersExcelTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testng.OrdersExcelTest@7a52f2a2]" started-at="2021-07-19T15:25:21 EDT" name="beforeTest" finished-at="2021-07-19T15:25:21 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="ScenarioDressesSelection()[pri:0, instance:testng.OrdersExcelTest@7a52f2a2]" started-at="2021-07-19T15:25:21 EDT" name="ScenarioDressesSelection" finished-at="2021-07-19T15:25:39 EDT" duration-ms="17574" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login name for this test: inyteti-9518@yopmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Order selection was done]]>
+            </line>
+            <line>
+              <![CDATA[Validating Cart details was done]]>
+            </line>
+            <line>
+              <![CDATA[Logout from account was done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ScenarioDressesSelection -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testng.OrdersExcelTest@7a52f2a2]" started-at="2021-07-19T15:25:39 EDT" name="afterTest" finished-at="2021-07-19T15:25:39 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testng.OrdersExcelTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
